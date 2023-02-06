@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import PersonajeCard from './personajecard'
-import {Context} from '../store/appContext';
+import PersonajeCard from './personajecard.jsx'
+import {Context} from "../store/appContext.jsx";
 
 export default function Characters() {
 const {store} = useContext(Context);

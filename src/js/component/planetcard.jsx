@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import {BsFillHeartFill} from "react-icons/bs";
 import {Link} from "react-router-dom";
-import { Context } from "../store/appContext";
+import { Context } from "../store/appContext.jsx";
 
 
 function PlanetCard(props) {

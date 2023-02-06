@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import PlanetCard from './planetcard'
-import {Context} from '../store/appContext';
+import PlanetCard from './planetcard.jsx'
+import {Context} from "../store/appContext.jsx";
 
 export default function Planetas() {
   const {store} = useContext(Context);

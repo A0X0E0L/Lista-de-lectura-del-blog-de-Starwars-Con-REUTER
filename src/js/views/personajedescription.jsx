@@ -1,7 +1,7 @@
 import React, { useEffect, useContext} from 'react';
 import { useParams } from "react-router-dom";
 import PropTypes from "prop-types";
-import {Context} from "../store/appContext";
+import {Context} from "../store/appContext.jsx";
 import Characters from "./resourses/personajes.json"
 
 export const CharacterDescription = props => {

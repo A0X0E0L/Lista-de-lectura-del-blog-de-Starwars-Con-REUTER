@@ -1,7 +1,7 @@
 import React from "react";
-import Characters from '../component/personajes'
-import Planetas from '../component/planetas'
-import Vehiculos from '../component/vehiculos'
+import Characters from '../component/personajes.jsx'
+import Planetas from '../component/planetas.jsx'
+import Vehiculos from '../component/vehiculos.jsx'
 
 
 export const Home = () => (

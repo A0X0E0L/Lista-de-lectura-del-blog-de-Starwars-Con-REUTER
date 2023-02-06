@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import VehicleCard from './vehiclecard';
-import {Context} from '../store/appContext';
+import VehicleCard from './vehiclecard.jsx';
+import {Context} from '../store/appContext.jsx';
 
 export default function Vehiculos() {
 
